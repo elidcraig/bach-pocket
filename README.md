@@ -1,1 +1,3 @@
 # Clef Notes: An Online Orchestra Primer
+
+The purpose of this website is to give the user a brief introduction to the various instruments of a concert orchestra. Users will be shown the main divisions of the orchestra (strings, woodwinds, brass, percussion, and other), along with images of the instruments themselves, sorted by division. Click on the image of an instrument to hear a brief audio clip that demonstrates how that instrument sounds.
