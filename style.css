@@ -20,9 +20,14 @@ div {
 }
 
 .main {
-
+    
 }
 
 .subsection {
+    display: inline-block;
+    width: 250px;
+}
 
+img.instrument {
+    width: 250px;
 }
