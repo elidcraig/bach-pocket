@@ -25,6 +25,7 @@ div {
 
 .subsection {
     display: inline-block;
+    vertical-align: top;
     width: 250px;
 }
 
