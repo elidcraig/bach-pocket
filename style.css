@@ -23,6 +23,12 @@ div {
     
 }
 
+img {
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
 .subsection {
     display: inline-block;
     vertical-align: top;
