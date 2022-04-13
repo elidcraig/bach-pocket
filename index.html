@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <link rel="stylesheet" href="style.css" />
-      <title>Clef Notes</title>
-  </head>
-  <body>
-      <h1>CLEF NOTES</h1>
-      <script src="script.js"></script>
-      <div class="main">
-        <p><!--- Brief introduction to the site ---> </p>  
-        <div class="image-on-left">
-            <img id="cello" src="./images/cello.jpeg" alt="Cello" onclick="playAudio('slide')" />
-            <h3></h3>
-            <p></p>
-        </div> 
-        <div class="image-on-right">
-            <h3></h3>
-            <p></p>
-            <img id="clarinet" src="./images/clarinet.jpeg" alt="Clarinet"/>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>Clef Notes</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div>
+            <h1>CLEF NOTES</h1>
+            <h2>A BRIEF INTRODUCTION TO A FEW FAVORITE MUSICAL INSTRUMENTS</h2>
         </div>
-        <div class="image-on-left">
-            <img id="trumpet" src="./images/trumpet.jpeg" alt="Trumpet"/>
-            <h3></h3>
-            <p></p>
+        <p><!--- Brief introduction to the site ---> </p>
+        <div class="main">
+            <div class="image-on-left">
+                <img id="cello" src="./images/cello.jpeg" alt="Cello" onclick="playAudio('slide')" />
+                <div>
+                    <h3>Cello</h3>
+                    <p>Hello cello Hello celloHello celloHello celloHello celloHello celloHello cello</p>
+                </div>
+            </div>  
+            <div class="image-on-right">
+                <div>
+                    <h3>Clarinet</h3>
+                    <p>Clarinet Clarinet Clarinet Clarinet Clarinet Clarinet Clarinet Clarinet Clarinet Clarinet Clarinet </p>
+                </div>
+                <img id="clarinet" src="./images/clarinet.jpeg" alt="Clarinet"/>
+            </div>
+            <div class="image-on-left">
+                <img id="trumpet" src="./images/trumpet.jpeg" alt="Trumpet"/>
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="image-on-right">
+                <h3></h3>
+                <p></p>
+                <img id="timpani" src="./images/timpani.jpeg" alt="Timpani"/>
+            </div>
+            <div class="image-on-left">
+                <img id="piano" src="./images/piano.jpeg" alt="Piano"/>
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="image-on-right">
+                <h3></h3>
+                <p></p>
+                <img id="guitar" src="./images/guitar.jpeg" alt="Guitar"/>
+            </div>
         </div>
-        <div class="image-on-right">
-            <h3></h3>
-            <p></p>
-            <img id="timpani" src="./images/timpani.jpeg" alt="Timpani"/>
-        </div>
-        <div class="image-on-left">
-            <img id="piano" src="./images/piano.jpeg" alt="Piano"/>
-            <h3></h3>
-            <p></p>
-        </div>
-        <div class="image-on-right">
-            <h3></h3>
-            <p></p>
-            <img id="guitar" src="./images/guitar.jpeg" alt="Guitar"/>
-        </div>
-      </div>
-      <audio id="slide" src="./audio/slide.mp3"></audio>
+        <audio id="slide" src="./audio/slide.mp3"></audio>
   </body>
 </html>
