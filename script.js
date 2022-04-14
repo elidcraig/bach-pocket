@@ -1,5 +1,5 @@
 function playAudio(clip) {
-    const playAudio = document.getElementById(clip)
-    playAudio.play()
+    const audio = document.getElementById(clip);
+    audio.play();
 }
 
